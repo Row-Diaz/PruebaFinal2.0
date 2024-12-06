@@ -10,6 +10,23 @@ nav {
   
   background-image: url(../img/big-data-7645200_1280.jpg);
 }
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: white; 
+  text-align: center;
+  border-radius: 5px; 
+  text-decoration: none; 
+  transition: transform 0.3s ease, background-color 0.3s; 
+}
+
+.custom-button:hover {
+  background-color: gray; 
+  transform: scale(0.9); 
+}
+
 header img {
   max-width: 250px;
   max-height: 200px;
